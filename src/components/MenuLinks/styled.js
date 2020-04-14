@@ -9,7 +9,7 @@ export const MenuLinksWrapper = styled.ul`
 export const MenuLinksItem = styled.li`
     padding: .5rem .7rem;
     .active{
-        color: #1fa1f2;
+        color: #F25A70;
     }
 `
 export const menuLinksLink = styled(Link)`

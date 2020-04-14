@@ -6,16 +6,16 @@ const MenuLinks = () => {
     return (
     <S.MenuLinksWrapper>
         <S.MenuLinksItem>
-            <S.menuLinksLink>Home</S.menuLinksLink>
+            <S.menuLinksLink to="/" activeClassName="active">Home</S.menuLinksLink>
         </S.MenuLinksItem>
         <S.MenuLinksItem>
-            <S.menuLinksLink>Blog</S.menuLinksLink>
+            <S.menuLinksLink to="/blog" activeClassName="active">Blog</S.menuLinksLink>
         </S.MenuLinksItem>
         <S.MenuLinksItem>
-            <S.menuLinksLink>Life</S.menuLinksLink>
+            <S.menuLinksLink >Life</S.menuLinksLink>
         </S.MenuLinksItem>
         <S.MenuLinksItem>
-            <S.menuLinksLink>Buy a coffe</S.menuLinksLink>
+            <S.menuLinksLink  to="/coffe" activeClassName="active">Buy a coffe</S.menuLinksLink>
         </S.MenuLinksItem>
     </S.MenuLinksWrapper>
     )
